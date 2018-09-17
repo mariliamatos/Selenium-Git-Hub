@@ -1,0 +1,3 @@
+[0802/113227.552:ERROR:crashpad_client_win.cc(491)] CreateProcess: Access is denied. (0x5)
+[0802/170405.913:ERROR:crashpad_client_win.cc(491)] CreateProcess: Access is denied. (0x5)
+[0803/143356.089:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)

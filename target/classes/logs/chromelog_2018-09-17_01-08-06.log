@@ -1,0 +1,228 @@
+[1537157288.073][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1537157288.077][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1537157288.077][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1537157288.081][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension=/var/folders/3l/mnsbbvwd041cf0xpw_yj0_vm0000gn/T/.org.chromium.Chromium.SUkouA/internal --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/3l/mnsbbvwd041cf0xpw_yj0_vm0000gn/T/.org.chromium.Chromium.uKTWS5 data:,
+[1537157288.914][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1537157289.204][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8)",
+      "userDataDir": "/var/folders/3l/mnsbbvwd041cf0xpw_yj0_vm0000gn/T/.org.chromium.Chromium.uKTWS5"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:61035"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Mac OS X",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1537157289.733][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND SetTimeouts {
+   "ms": 10000,
+   "type": "page load"
+}
+[1537157289.733][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE SetTimeouts
+[1537157289.780][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND SetTimeouts {
+   "ms": 10000,
+   "type": "implicit"
+}
+[1537157289.780][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE SetTimeouts
+[1537157289.808][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1537157289.811][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1537157289.946][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE MaximizeWindow {
+   "height": 725,
+   "width": 1200,
+   "x": 22,
+   "y": 23
+}
+[1537157290.372][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND Navigate {
+   "url": "https://github.com/"
+}
+[1537157290.375][INFO]: Waiting for pending navigations...
+[1537157290.380][INFO]: Done waiting for pending navigations. Status: ok
+[1537157294.149][INFO]: Waiting for pending navigations...
+[1537157298.348][INFO]: Done waiting for pending navigations. Status: ok
+[1537157298.348][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE Navigate
+[1537157298.352][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/header/div/div[2]/div/span/div/a[1]"
+}
+[1537157298.352][INFO]: Waiting for pending navigations...
+[1537157298.353][INFO]: Done waiting for pending navigations. Status: ok
+[1537157298.373][INFO]: Waiting for pending navigations...
+[1537157298.374][INFO]: Done waiting for pending navigations. Status: ok
+[1537157298.374][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE FindElement {
+   "ELEMENT": "0.8499453673189032-1"
+}
+[1537157298.380][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND ClickElement {
+   "id": "0.8499453673189032-1"
+}
+[1537157298.380][INFO]: Waiting for pending navigations...
+[1537157298.381][INFO]: Done waiting for pending navigations. Status: ok
+[1537157298.463][INFO]: Waiting for pending navigations...
+[1537157299.058][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.059][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE ClickElement
+[1537157299.062][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND FindElement {
+   "using": "id",
+   "value": "login_field"
+}
+[1537157299.062][INFO]: Waiting for pending navigations...
+[1537157299.063][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.081][INFO]: Waiting for pending navigations...
+[1537157299.082][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.082][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE FindElement {
+   "ELEMENT": "0.8837420532939535-1"
+}
+[1537157299.086][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND TypeElement {
+   "id": "0.8837420532939535-1",
+   "value": [ "mariliauspiana@gmail.com" ]
+}
+[1537157299.087][INFO]: Waiting for pending navigations...
+[1537157299.088][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.291][INFO]: Waiting for pending navigations...
+[1537157299.293][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.293][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE TypeElement
+[1537157299.297][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[1537157299.297][INFO]: Waiting for pending navigations...
+[1537157299.298][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.318][INFO]: Waiting for pending navigations...
+[1537157299.319][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.319][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE FindElement {
+   "ELEMENT": "0.8837420532939535-2"
+}
+[1537157299.323][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND TypeElement {
+   "id": "0.8837420532939535-2",
+   "value": [ "@Mg7694216" ]
+}
+[1537157299.323][INFO]: Waiting for pending navigations...
+[1537157299.326][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.423][INFO]: Waiting for pending navigations...
+[1537157299.424][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.425][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE TypeElement
+[1537157299.429][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND FindElement {
+   "using": "id",
+   "value": "password"
+}
+[1537157299.429][INFO]: Waiting for pending navigations...
+[1537157299.430][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.438][INFO]: Waiting for pending navigations...
+[1537157299.440][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.440][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE FindElement {
+   "ELEMENT": "0.8837420532939535-2"
+}
+[1537157299.444][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND SubmitElement {
+   "id": "0.8837420532939535-2"
+}
+[1537157299.444][INFO]: Waiting for pending navigations...
+[1537157299.446][INFO]: Done waiting for pending navigations. Status: ok
+[1537157299.462][INFO]: Waiting for pending navigations...
+[1537157300.545][INFO]: Done waiting for pending navigations. Status: ok
+[1537157300.545][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE SubmitElement
+[1537157300.562][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] COMMAND CloseWindow {
+
+}
+[1537157300.667][INFO]: [3b5f4b4a64247df4d907f73fdce7c318] RESPONSE CloseWindow [  ]
